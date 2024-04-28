@@ -1,0 +1,45 @@
+/*main css for web styling*/
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+.main-nav{
+	padding: 20px, 0;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+        .container {
+            display: flex;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 0 10px;
+        }
+		 .location_container{
+			 display: flex;
+			 flex-direction: row;
+			 flex-wrap: nowrap;
+			 width: 100%;
+			 justify-content: flex-start;
+		 }
+		 .location-caption{
+			 width:180px;
+			 padding-right: 30px;
+			 line-height: 19px;
+		 }
+		 .date_container{
+			 display: flex;
+			 flex-direction: row;
+			 flex-wrap: nowrap;
+			 width: 100%;
+			 justify-content: flex-start;
+		 }
+		 .date-caption{
+			 width:180px;
+			 padding-right: 30px;
+			 line-height: 19px;
+		 }
