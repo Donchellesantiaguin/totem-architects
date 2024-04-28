@@ -2,5 +2,5 @@
 >Case study of the web system for web design class
 
 
-##Author
+# Author
 Donchelle Santiaguin-Rollins (Donnie)
