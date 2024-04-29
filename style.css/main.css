@@ -1,4 +1,29 @@
 /*main css for web styling*/
+.other-projects .nav-arrows {
+position: absolute;
+top: 50%;
+width: auto;
+}
+.other-projects .nav-arrow-before{
+left: -2000px;
+font-size: 30px;
+color:rgba(0,0,0,1.00);
+font-weight: lighter;
+}
+.other-projects .nav-arrow-next {
+right: -56px;
+font-size: 30px;
+color:rgba(0,0,0,1.00);
+font-weight: lighter;
+}
+.page-content {
+padding-top: 63px;
+padding-bottom: 60px;
+background-color: rgba(187,185,185,1.00);
+}
+
+
+
 .class-name{
 font-size: 85px;
 }
@@ -227,6 +252,7 @@ margin-bottom: 32px;
 .footer-content .copyright {
     margin-left: 0;
     margin-top: 30px;
+	color:rgba(145,145,145,1.00);
 }
   .footer-content .social {
     overflow: hidden;
@@ -244,13 +270,16 @@ margin-bottom: 32px;
 }
 
 .social-icon {
-  display: inline-block;
-  vertical-align: middle;
-  background-color: transparent;
-  margin-left: 20px;
-  margin-right: 20px;
-  transition: opacity 0.3s ease;
-  opacity: 1;
+display: inline-block;
+vertical-align: middle;	
+background-color: transparent;
+margin-left: 20px;
+margin-right: 20px;
+transition: opacity 0.3s ease;
+opacity: 1;
+justify-content: space-between;
+font-size: 24px;
+color:rgba(0,0,0,1.00);
 }
 .social-icon .icon {
   fill: #000;
