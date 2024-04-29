@@ -7,28 +7,52 @@
 </head>
 
 <body>
-	<h1>Web Compents</h1>
+	<h1 class="class-name">TOTEM Web Components</h1>
 	
 	<h2>Typography Defaults</h2>
-<header class="main-nav">
+	<p class="fonts-tittle-1">Font: "Proxima Nova" sans-serif (Bold) </p>
+	<p class="fonts-tittle-2">Font: "Proxima Nova" sans-serif (Regular) </p>
+	
 <h3 class="component-name">Main Nav - Section</h3>
 	<img 
 		 srcset="images/nav-bar.jpg 1.5x"
 		 src="images/nav-bar.jpg" alt="main-nav">
 	<div class="component_code">
 		<p>duplicate code goes here</p>
+<header class="main-header">
+        <div class="logo-left">
+            <img src="#" alt="Left Logo">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Agency</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+        <div class="lang-item">
+            <a class="lang-link active" href="#">EN</a>
+            <a class="lang-link active" href="#">FR</a>
+        </div>
+    </header>
+  
+		
+		
+		
+		
 	</div>
-		</header>
 	
-	<article class="component">
+	<article class="overview component">
 	
 	<h3 class="component-name">Overview - Section</h3>
 	<img 
 		 srcset="images/section-copy.jpg 1.5x"
 		 src="images/section-copy.jpg" alt="section-copy">
 	<div class="component_code">
-		<p>RIVIERA GOLF, ABIDJAN</p>
-		<p class="section-header">Villa Pemaky</p>
+		<p class="subheader">RIVIERA GOLF, ABIDJAN</p>
+		<p class="tittle-1">Villa Pemaky</p>
 		<div class="container">
         <div class="column">
             <p>The Pemaky Villa is a single-family primary residence located at Riviera Golf in the Cocody municipality, near Sol Béni, the training centre of ASEC Mimosas. It benefits from a highly sought-after neighbourhood, currently under construction, where luxurious real estate projects coexist, several boasting the signature of renowned architects. The Pemaky Villa, with its modern and understated architecture, has chosen to respect this select neighbourhood without engaging in architectural exhibitionism.</p>
@@ -49,24 +73,96 @@
 		<div class="date-value"><p>2021</p></div>
 		</div>
 		</article>
-<article class="component">
+<article class="other projects">
 <h3 class="component-name">Other Projects - Section</h3>
 	<img 
 		 srcset="images/other-projects-section.jpg 1.5x"
 		 src="images/other-projects-section.jpg" alt="other-projects">
 	<div class="component_code">
-		<p>duplicate code goes here</p>
+	<div class="other-projects">
+		<div class="container">
+			<h2 class="other-projects-tittle"> Other Projects </h2>
+			<div class="other-projects-list">
+				<div class="other-projects-list-inside">
+					<div class="swipe-wrap">
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Camelia2-1-490x250.jpg" alt="villa-camelia">
+										<div class="other-projects-crd-tittle">Villa Camelia</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Moabi2-1-490x250.jpg" alt="villa-moabi">
+										<div class="other-projects-crd-tittle">Villa Moabi</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villas-Kanopii3-1-490x250.jpg" alt="villa-camelia">
+										<div class="other-projects-crd-tittle">Villas Kanopii</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>	
+<!--I am having issues on how to add the left and right icon-toggle-slidders
+ask proffesoor on how this can be resolved.-->
 	</div>
 		</article>
-<article class="component">
-<h3 class="component-name">Footer - Section - main socials bar</h3>
+<article class="footer">
+<h3 class="component-name">Footer - Section</h3>
 	<img 
 		 srcset="images/footer-socials.jpg 1.5x"
 		 src="images/footer-socials.jpg" alt="footer-socials">
 	<div class="component_code">
-		<p>duplicate code goes here</p>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-content--socials">
+            <div class="social">
+      			<div class="social__inner">
+					
+<!--Add social Icons from Font Awesome Later on-->					
+<a class="social-icon" href="#" target="_blank">
+            <svg class="icon icon-instagram"><use xlink:href="#icon-here"></use></svg>Instagram</a>
+					
+<a class="social-icon" href="#" target="_blank">
+            <svg class="icon icon-facebook"><use xlink:href="#icon-here"></use></svg>Facebook</a>
+					
+<a class="social-icon" href="#" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-here"></use></svg>LinkedIn</a>
+					
+<a class="social-icon" href="#" target="_blank">
+      	<svg class="icon icon-twitter"><use xlink:href="#icon-here"></use></svg>Twitter</a>
+					
+</div>
+    </div>
+        <div class="copyright">© 2024 TOTEM ARCHITECTS</div>
+      </div>
+    </div>
+</div>
+</footer>
+		
+		
+<!--remember before turning in the final to do a clean up on the code :)->			
+		
 	</div>
-		</article>
+</article>
 	
 </body>
 </html>
