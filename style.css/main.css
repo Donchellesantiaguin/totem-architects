@@ -1,28 +1,59 @@
+/*aside bar styling*/
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fixed position to keep the sidebar in view */
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar img {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
 /*main css for web styling*/
-.other-projects .nav-arrows {
-position: absolute;
-top: 50%;
-width: auto;
+.totem--main{
+margin-left: 250px;	
 }
-.other-projects .nav-arrow-before{
-left: -2000px;
-font-size: 30px;
-color:rgba(0,0,0,1.00);
-font-weight: lighter;
+main{
+display: block;
+unicode-bidi: isolate;
 }
-.other-projects .nav-arrow-next {
-right: -56px;
-font-size: 30px;
-color:rgba(0,0,0,1.00);
-font-weight: lighter;
+*:before, *:after{
+box-sizing: border-box;
 }
+
+
 .page-content {
-padding-top: 63px;
-padding-bottom: 60px;
 background-color: rgba(187,185,185,1.00);
+margin: 0;
+background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30));
+background-size:cover; 
+background-position:center;
+
 }
-
-
 
 .class-name{
 font-size: 85px;
@@ -39,14 +70,16 @@ font-size: 40px;
 }
 /* header css style here */
 .main-header {
-background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+background-color: rgba(106,106,106,0.47); /* Transparent background */
 color: #fff; /* White text color */
-padding: 10px 20px;
-width: 100%;
+padding: 10px 40px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+margin: 0;
+padding-left: 90px;
+padding-right: 90px;
 }
 
 .logo-left img {
@@ -54,7 +87,7 @@ max-height: 50px; /* Adjust height as needed here*/
 }
 .lang-link {
 padding: 0 10px;
-color: #999;
+color: #fff; /* White text color */
 text-decoration: none;
 text-transform: uppercase;
 position: relative;
@@ -79,7 +112,7 @@ font-size: 12px;
 }
 
 .nav-links li {
-margin-right: 20px;
+margin-right: 98px;
 }
 
 .nav-links li:last-child {
@@ -91,13 +124,14 @@ color: #fff;
 text-decoration: none;
 }
 
-.tittle-1{
-font-size: 40px;
-font-weight: 400;
+.component_code .tittle-1{
+font-size: 70px;
+padding-left: 120px;
 }
 .subheader{
 font-size: 14px;
 text-transform: uppercase;
+padding-left: 120px;
 }
 .component_code p{
 font-size: 14px;
@@ -105,15 +139,14 @@ line-height: 25px;
 }
 body{
 font-family: "Proxima Nova", sans-serif;
-margin: 0;
-padding: 0;
+
 }
 .main-nav{
 padding: 20px, 0;
 padding-top: 7px;
 padding-bottom: 7px;
 }
-        .container {
+.container {
 display: flex;
 max-width: 960px;
 margin: 0 auto;
@@ -128,12 +161,14 @@ display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 width: 100%;
+padding-left: 120px;
 justify-content: flex-start;
 }
 .location-caption{
 width:180px;
 padding-right: 30px;
 line-height: 19px;
+
 }
 .date_container{
 display: flex;
@@ -141,6 +176,7 @@ flex-direction: row;
 flex-wrap: nowrap;
 width: 100%;
 justify-content: flex-start;
+padding-left: 120px;
 }
 .date-caption{
 width:180px;
@@ -159,34 +195,32 @@ max-width: 1440px;
 .other-projects-tittle{
 font-family: "Proxima Nova", sans-serif;
 font-weight: bold;
-font-size: 16px;
+font-size: 22px;
 line-height: 19px;
 text-transform: uppercase;
 margin-bottom: 32px;
+margin-left: 150px;
+margin-right: 269px;
+padding: 20px;
+
 }
 .other-projects-list{
-	position: relative;
+position: relative;
 }
 .other-projects-list-inside{
-	padding-left: 40px;
-    padding-right: 40px;
+padding-left: 40px;
+padding-right: 40px;
 }
 .swipe-wrap{
-	position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    box-sizing: content-box;
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 1;
+display: flex;
+transition-property: transform;
+box-sizing: content-box;
 }
-.swipe-slide-toggle{
-	flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transition-property: transform;
-}
+
 .other-projects-crd--img{
 	font-size: 0;
 	line-height: 0;
@@ -300,3 +334,36 @@ color:rgba(0,0,0,1.00);
   width: 24px;
   height: 24px;
 }
+
+
+
+
+.container .nav-arrow-before {
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 110px;
+color:rgba(0,0,0,1.00);
+}
+.container .nav-arrow-next{
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 110px;
+color:rgba(0,0,0,1.00);	
+}
+
+.hero-slide{
+height: 100%;
+background-color: #010101;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+color: #fff;
+position: relative;
+}
+
+
+.divider {
+border-top: 4px solid #ccc; /* Change color here */
+margin: 20px 0; /* Adjust spacing here*/
+}
+
