@@ -1,0 +1,369 @@
+/*aside bar styling*/
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh; /* Full height of the viewport */
+    position: fixed; /* Fixed position to keep the sidebar in view */
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar img {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+/*main css for web styling*/
+.totem--main{
+margin-left: 250px;	
+}
+main{
+display: block;
+unicode-bidi: isolate;
+}
+*:before, *:after{
+box-sizing: border-box;
+}
+
+
+.page-content {
+background-color: rgba(187,185,185,1.00);
+margin: 0;
+background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30));
+background-size:cover; 
+background-position:center;
+
+}
+
+.class-name{
+font-size: 85px;
+}
+.fonts-tittle-1{
+font-family: "Proxima Nova", sans-serif;
+font-weight: bold;
+font-size: 40px;
+}
+.fonts-tittle-2{
+font-family: "Proxima Nova", sans-serif;
+font-weight: lighter;
+font-size: 40px;
+}
+/* header css style here */
+.main-header {
+background-color: rgba(106,106,106,0.47); /* Transparent background */
+color: #fff; /* White text color */
+padding: 10px 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0;
+padding-left: 90px;
+padding-right: 90px;
+}
+
+.logo-left img {
+max-height: 50px; /* Adjust height as needed here*/
+}
+.lang-link {
+padding: 0 10px;
+color: #fff; /* White text color */
+text-decoration: none;
+text-transform: uppercase;
+position: relative;
+}
+.lang-item{
+display: flex;
+}
+
+.lang-item:first-child .lang-link:before {
+content: unset;
+display: none;
+}
+
+.nav-links ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+font-family: "Proxima Nova", sans-serif;
+text-transform: uppercase;
+font-size: 12px;
+}
+
+.nav-links li {
+margin-right: 98px;
+}
+
+.nav-links li:last-child {
+margin-right: 0;
+}
+
+.nav-links li a {
+color: #fff;
+text-decoration: none;
+}
+
+.component_code .tittle-1{
+font-size: 70px;
+padding-left: 120px;
+}
+.subheader{
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 120px;
+}
+.component_code p{
+font-size: 14px;
+line-height: 25px;
+}
+body{
+font-family: "Proxima Nova", sans-serif;
+
+}
+.main-nav{
+padding: 20px, 0;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+.container {
+display: flex;
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
+}
+.column {
+flex: 1;
+padding: 0 10px;
+}
+.location_container{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+width: 100%;
+padding-left: 120px;
+justify-content: flex-start;
+}
+.location-caption{
+width:180px;
+padding-right: 30px;
+line-height: 19px;
+
+}
+.date_container{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+width: 100%;
+justify-content: flex-start;
+padding-left: 120px;
+}
+.date-caption{
+width:180px;
+padding-right: 30px;
+line-height: 19px;
+}
+/*other projects styling*/
+.other-projects{
+background-color: #F9F9F9;
+padding-top: 64px;
+padding-bottom: 82px;
+}
+.container{
+max-width: 1440px;
+}
+.other-projects-tittle{
+font-family: "Proxima Nova", sans-serif;
+font-weight: bold;
+font-size: 22px;
+line-height: 19px;
+text-transform: uppercase;
+margin-bottom: 32px;
+margin-left: 150px;
+margin-right: 269px;
+padding: 20px;
+
+}
+.other-projects-list{
+position: relative;
+}
+.other-projects-list-inside{
+padding-left: 40px;
+padding-right: 40px;
+}
+.swipe-wrap{
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 1;
+display: flex;
+transition-property: transform;
+box-sizing: content-box;
+}
+
+.other-projects-crd--img{
+	font-size: 0;
+	line-height: 0;
+}
+.other-projects-crd--img, a{
+	display: block;
+}
+.other-projects-crd-inner{
+	position: relative;
+    overflow: hidden;
+}
+.other-projects-crd-tittle{
+	font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 14px 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    right: -1px;
+    z-index: 3;
+    transition: transform 0.25s ease;
+    transform: translateY(100%);
+}
+.other-projects-crd ::hover .other-projects-crd-tittle{
+	transform: translateY(0%);
+}
+
+/*footer*/
+.footer-content--socials{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer {
+/*  position: absolute;
+    width: 100%;
+    bottom: 0;
+	left: 0; */
+    padding: 28px 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer-content {
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-content .copyright {
+    margin-left: 0;
+    margin-top: 30px;
+	color:rgba(145,145,145,1.00);
+}
+  .footer-content .social {
+    overflow: hidden;
+}
+.footer-content .social__inner {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.social-icons {
+  overflow: hidden;
+}
+.social-icons__in {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.social-icon {
+display: inline-block;
+vertical-align: middle;	
+background-color: transparent;
+margin-left: 20px;
+margin-right: 20px;
+transition: opacity 0.3s ease;
+opacity: 1;
+justify-content: space-between;
+font-size: 24px;
+color:rgba(0,0,0,1.00);
+}
+.social-icon .icon {
+  fill: #000;
+}
+.social-icon .icon-facebook {
+  width: 24px;
+  height: 24px;
+}
+.social-icon .icon-twitter {
+  width: 24px;
+  height: 20px;
+}
+.social-icon .icon-instagram {
+  width: 24px;
+  height: 24px;
+}
+.social-icon .icon-linkedin {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+.container .nav-arrow-before {
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 110px;
+color:rgba(0,0,0,1.00);
+}
+.container .nav-arrow-next{
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 110px;
+color:rgba(0,0,0,1.00);	
+}
+
+.hero-slide{
+height: 100%;
+background-color: #010101;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+color: #fff;
+position: relative;
+}
+
+
+.divider {
+border-top: 4px solid #ccc; /* Change color here */
+margin: 20px 0; /* Adjust spacing here*/
+}
+
