@@ -1,8 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>componets | totem architects (part 4) </title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>componets | totem architects</title>
 	
 <!-- styling link -->
 <link rel="stylesheet" href="../style.css/main.css">
@@ -17,21 +18,48 @@
 </head>
 
 <body>
+
+	
+<!-- add left-hand a-side bar here - START -->
+	
+<div class="sidebar">
+        <img src="icons%20and%20logos/logo.svg" alt="Left Logo">
+        <ul>
+            <li><a href="#">Main Nav - Hero</a></li>
+            <li><a href="#">Feature Image</a></li>
+            <li><a href="#">Project Overview</a></li>
+            <li><a href="#">Other Projects - card slider</a></li>
+            <li><a href="#">Footer - Socials</a></li>
+        </ul>
+    </div>
+
+<!-- add left-hand a-side bar here - END-->
+	
+<main class="totem--main">
+	
+
 	<h1 class="class-name">TOTEM Web Components</h1>
+	
+ <div class="divider"></div> <!-- section cut-off-->
 	
 	<h2>Typography Defaults</h2>
 	<p class="fonts-tittle-1">Font: "Proxima Nova" sans-serif (Bold) </p>
 	<p class="fonts-tittle-2">Font: "Proxima Nova" sans-serif (Regular) </p>
+	
+	
+<div class="divider"></div> <!-- section cut-off-->		
+	
 	
 <h3 class="component-name">Main Nav - Section</h3>
 	<img 
 		 srcset="images/nav-bar.jpg 1.5x"
 		 src="images/nav-bar.jpg" alt="main-nav">
 	<div class="component_code">
-		<p>duplicate code goes here</p>
+	
+		
 <header class="main-header">
         <div class="logo-left">
-            <img src="#" alt="Left Logo">
+            <img src="icons%20and%20logos/logo.svg" alt="Left Logo">
         </div>
         <nav class="nav-links">
             <ul>
@@ -49,70 +77,40 @@
     </header>
  </div>
 
+<div class="divider"></div> <!-- section cut-off-->	
+	
 <article class="hero component">
 	<h3>Hero Header - Sub Nav</h3>
 	<img 
 		 srcset="images/header-image.jpg 1.5x"
 		 src="images/header-image.jpg" alt="section-hero">
 	<div class="component_code">
-		<p> duplicate code goes here</p>
-		<div class="page-hero-content">
+		
 <!-- project hero content here -->
+
 <div class="page-content">
+
     <div class="pages-content">
       <div class="slidder">
        <div class="slidder-wrapper">
         <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
+         <div class="hero-slide"><img src="../images/Banner-img.jpg" alt="image1" width="1820">
          </div>
         </div>
-        <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
-         </div>
-        </div>
-        <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
-         </div>
-        </div>
-        <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
-         </div>
-        </div>
-        <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
-         </div>
-        </div>
-        <div class="slidder-slide">
-         <div class="hero-slide" img src="#" alt="banner">
-         </div>
-        </div>
+		 </div>
        </div>
-      </div>
-      <div class="nav-arrows nav-arrows--white">
-       <a class="nav-arrow-before" href="#jslinkhere">
-        <svg class="icon icon-nav-arrow-right">
+	
+
          <!-- navigation arrow here -->
-        
-        </svg>
-       </a>
-       <a class="nav-arrow-next" href="#jslinkhere">
-        <svg class="icon icon-nav-arrow-right">
          <!-- navigation arrow here -->
-     
-        </svg>
-       </a>
-      </div>
-      <div class="dots">
-       <div class="container">
-        <div class="dots__inner">
-        </div>
-       </div>
+
       </div>
      </div>
 	</div>
-	</div>
-</div>
+
 </article>
+
+<div class="divider"></div> <!-- section cut-off-->	
 	
 	<article class="overview component">
 	
@@ -143,6 +141,11 @@
 		<div class="date-value"><p>2021</p></div>
 		</div>
 		</article>
+	
+<div class="divider"></div> <!-- section cut-off-->	
+	
+	
+	
 <article class="other projects">
 <h3 class="component-name">Other Projects - Section</h3>
 	<img 
@@ -150,8 +153,10 @@
 		 src="images/other-projects-section.jpg" alt="other-projects">
 	<div class="component_code">
 	<div class="other-projects">
+		<h2 class="other-projects-tittle"> Other Projects </h2>
 		<div class="container">
-			<h2 class="other-projects-tittle"> Other Projects </h2>
+			<span><a class="nav-arrow-before" href="#javainserthere">
+				<i class="fa-solid fa-less-than"></i></a></span>
 			<div class="other-projects-list">
 				<div class="other-projects-list-inside">
 					<div class="swipe-wrap">
@@ -159,7 +164,7 @@
 							<div class="other-projects-crd">
 								<div class="other-projects-crd-inner">
 									<div class="other-projects-crd--img">
-										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Camelia2-1-490x250.jpg" alt="villa-camelia">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Camelia2-1-490x250.jpg" alt="villa-camelia">
 										<div class="other-projects-crd-tittle">Villa Camelia</div></a>
 									</div>
 								</div>
@@ -169,7 +174,7 @@
 							<div class="other-projects-crd">
 								<div class="other-projects-crd-inner">
 									<div class="other-projects-crd--img">
-										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Moabi2-1-490x250.jpg" alt="villa-moabi">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Moabi2-1-490x250.jpg" alt="villa-moabi">
 										<div class="other-projects-crd-tittle">Villa Moabi</div></a>
 									</div>
 								</div>
@@ -179,26 +184,27 @@
 							<div class="other-projects-crd">
 								<div class="other-projects-crd-inner">
 									<div class="other-projects-crd--img">
-										<a href="#" alt="villa-camelia-en"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villas-Kanopii3-1-490x250.jpg" alt="villa-camelia">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villas-Kanopii3-1-490x250.jpg" alt="villa-camelia">
 										<div class="other-projects-crd-tittle">Villas Kanopii</div></a>
 									</div>
-								</div>
-								<div class="nav-arrows">
-									<a class="nav-arrow-before" href="#javainserthere">
-										<svg class="icon icon-nav-arrow-left"></svg><i class="fa-solid fa-less-than"></i></a>
-									<a class="nav-arrow-next" href="#javainserthere"><svg class="icon icon-nav-arrow-right"></svg><i class="fa-solid fa-greater-than"></i></a>
-								</div>
+								</div> 
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
-		</div>
-		</div>	
-<!--I am having issues on how to add the left and right icon-toggle-slidders
-ask proffesoor on how this can be resolved.-->
+		</div> <!--ADD SPAN  AFTER MY CONTAINERS-->
+			<span><a class="nav-arrow-next" href="#javainserthere"><i class="fa-solid fa-greater-than"></i></a></span>
 	</div>
-		</article>
+
+	</div>
+</div>
+</article>
+	
+	
+<div class="divider"></div> <!-- section cut-off-->	
+	
+	
+	
 <article class="footer">
 <h3 class="component-name">Footer - Section</h3>
 	<img 
@@ -214,10 +220,10 @@ ask proffesoor on how this can be resolved.-->
 					
 <!--Add social Icons from Font Awesome Later on-->					
 <div class="social-icons">
-            <a href="#" class="social-icon"><svg class="icon icon-twitter"><i class="fab fa-instagram"></i></svg></a>
-			<a href="#" class="social-icon"><svg class="icon icon-twitter"><i class="fab fa-facebook"></i></svg></a>
-			<a href="#" class="social-icon"><svg class="icon icon-twitter"><i class="fa-brands fa-linkedin-in"></i></svg></a>
-            <a href="#" class="social-icon"><svg class="icon icon-twitter"><i class="fab fa-twitter"></i></svg>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+			<a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i>
 			</a>
         </div>
 					
@@ -228,13 +234,10 @@ ask proffesoor on how this can be resolved.-->
       </div>
     </div>
 </div>
-</footer>
+</footer>		
 		
-		
-<!--remember before turning in the final to do a clean up on the code :)->			
-		
-	</div>
-		</article>
-	
+</div>
+</article>
+</main>		
 </body>
 </html>
