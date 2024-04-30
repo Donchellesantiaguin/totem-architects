@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>componets | totem architects</title>
+	
+<!-- styling link -->
+<link rel="stylesheet" href="../style.css/main.css">
+	
+<!-- font link -->
+<link rel="preconnect" href="#placeholder">
+<link rel="preconnect" href="#placeholder" crossorigin>
+<link href="#placeholder" rel="stylesheet">
+	
+<!-- icon link -->
+<script src="https://kit.fontawesome.com/b1244d13b7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	
+<!-- add left-hand a-side bar here - START -->
+	
+<div class="sidebar">
+        <img src="icons%20and%20logos/logo.svg" alt="Left Logo">
+        <ul>
+            <li><a href="#">Main Nav - Hero</a></li>
+            <li><a href="#">Feature Image</a></li>
+            <li><a href="#">Project Overview</a></li>
+            <li><a href="#">Other Projects - card slider</a></li>
+            <li><a href="#">Footer - Socials</a></li>
+        </ul>
+    </div>
+
+<!-- add left-hand a-side bar here - END-->
+	
+<main class="totem--main">
+	
+
+	<h1 class="class-name">TOTEM Web Components</h1>
+	
+ <div class="divider"></div> <!-- section cut-off-->
+	
+	<h2>Typography Defaults</h2>
+	<p class="fonts-tittle-1">Font: "Proxima Nova" sans-serif (Bold) </p>
+	<p class="fonts-tittle-2">Font: "Proxima Nova" sans-serif (Regular) </p>
+	
+	
+<div class="divider"></div> <!-- section cut-off-->		
+	
+	
+<h3 class="component-name">Main Nav - Section</h3>
+	<img 
+		 srcset="images/nav-bar.jpg 1.5x"
+		 src="images/nav-bar.jpg" alt="main-nav">
+	<div class="component_code">
+	
+		
+<header class="main-header">
+        <div class="logo-left">
+            <img src="icons%20and%20logos/logo.svg" alt="Left Logo">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Agency</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+        <div class="lang-item">
+            <a class="lang-link active" href="#">EN</a>
+            <a class="lang-link active" href="#">FR</a>
+        </div>
+    </header>
+ </div>
+
+<div class="divider"></div> <!-- section cut-off-->	
+	
+<article class="hero component">
+	<h3>Hero Header - Sub Nav</h3>
+	<img 
+		 srcset="images/header-image.jpg 1.5x"
+		 src="images/header-image.jpg" alt="section-hero">
+	<div class="component_code">
+		
+<!-- project hero content here -->
+
+<div class="page-content">
+
+    <div class="pages-content">
+      <div class="slidder">
+       <div class="slidder-wrapper">
+        <div class="slidder-slide">
+         <div class="hero-slide"><img src="../images/Banner-img.jpg" alt="image1" width="1820">
+         </div>
+        </div>
+		 </div>
+       </div>
+	
+
+         <!-- navigation arrow here -->
+         <!-- navigation arrow here -->
+
+      </div>
+     </div>
+	</div>
+
+</article>
+
+<div class="divider"></div> <!-- section cut-off-->	
+	
+	<article class="overview component">
+	
+	<h3 class="component-name">Overview - Section</h3>
+	<img 
+		 srcset="images/section-copy.jpg 1.5x"
+		 src="images/section-copy.jpg" alt="section-copy">
+	<div class="component_code">
+		<p class="subheader">RIVIERA GOLF, ABIDJAN</p>
+		<p class="tittle-1">Villa Pemaky</p>
+		<div class="container">
+        <div class="column">
+            <p>The Pemaky Villa is a single-family primary residence located at Riviera Golf in the Cocody municipality, near Sol Béni, the training centre of ASEC Mimosas. It benefits from a highly sought-after neighbourhood, currently under construction, where luxurious real estate projects coexist, several boasting the signature of renowned architects. The Pemaky Villa, with its modern and understated architecture, has chosen to respect this select neighbourhood without engaging in architectural exhibitionism.</p>
+        	</div>
+        <div class="column">
+            <p>The house is organised around a central garden, visible from all living spaces and bedrooms, thanks to the large transparency of the interior façades. The ground floorincludes parking for 4 vehicles, a large living room, dining room, kitchen with adjoining service areas, and finally, the poolhouse adjacent to the pool, serving as a private reception area for the owner. The first floor, however, houses the bedrooms and family living room.</p>
+				
+			<p>A notable element in the architectural composition of this project is the walkway connecting the master bedroom to the family living room, which also serves as a suspended terrace for the latter.</p>
+        	</div>
+    </div>
+	</div>
+		<div class="location_container">
+		<div class="location-caption"><p>Localisation</p></div>
+		<div class="location-value"><p>Riviera Golf, Abidjan</p></div>
+			</div>
+		<div class="date_container">
+		<div class="date-caption"><p>Date</p></div>
+		<div class="date-value"><p>2021</p></div>
+		</div>
+		</article>
+	
+<div class="divider"></div> <!-- section cut-off-->	
+	
+	
+	
+<article class="other projects">
+<h3 class="component-name">Other Projects - Section</h3>
+	<img 
+		 srcset="images/other-projects-section.jpg 1.5x"
+		 src="images/other-projects-section.jpg" alt="other-projects">
+	<div class="component_code">
+	<div class="other-projects">
+		<h2 class="other-projects-tittle"> Other Projects </h2>
+		<div class="container">
+			<span><a class="nav-arrow-before" href="#javainserthere">
+				<i class="fa-solid fa-less-than"></i></a></span>
+			<div class="other-projects-list">
+				<div class="other-projects-list-inside">
+					<div class="swipe-wrap">
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Camelia2-1-490x250.jpg" alt="villa-camelia">
+										<div class="other-projects-crd-tittle">Villa Camelia</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villa-Moabi2-1-490x250.jpg" alt="villa-moabi">
+										<div class="other-projects-crd-tittle">Villa Moabi</div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swipe-slide-toggle" style="width: 425.333px; margin-right: 30px;">
+							<div class="other-projects-crd">
+								<div class="other-projects-crd-inner">
+									<div class="other-projects-crd--img">
+										<a href="#" title="Villa Camelia - English"><img src="https://totemarchitects.com/wp-content/uploads/2023/04/Villas-Kanopii3-1-490x250.jpg" alt="villa-camelia">
+										<div class="other-projects-crd-tittle">Villas Kanopii</div></a>
+									</div>
+								</div> 
+							</div>
+						</div>
+					</div>
+			</div>
+		</div> <!--ADD SPAN  AFTER MY CONTAINERS-->
+			<span><a class="nav-arrow-next" href="#javainserthere"><i class="fa-solid fa-greater-than"></i></a></span>
+	</div>
+
+	</div>
+</div>
+</article>
+	
+	
+<div class="divider"></div> <!-- section cut-off-->	
+	
+	
+	
+<article class="footer">
+<h3 class="component-name">Footer - Section</h3>
+	<img 
+		 srcset="images/footer-socials.jpg 1.5x"
+		 src="images/footer-socials.jpg" alt="footer-socials">
+	<div class="component_code">
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-content--socials">
+            <div class="social">
+      			<div class="social__inner">
+					
+<!--Add social Icons from Font Awesome Later on-->					
+<div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+			<a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i>
+			</a>
+        </div>
+					
+
+</div>
+    </div>
+        <div class="copyright">© 2024 TOTEM ARCHITECTS</div>
+      </div>
+    </div>
+</div>
+</footer>		
+		
+	</div>
+		</article>
+</main>		
+</body>
+</html>
