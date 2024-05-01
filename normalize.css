@@ -21,7 +21,7 @@ font-size: 40px;
 }
 /* header css style here */
 .main-header {
-background: url("..wk12/images/Banner-img.jpg");
+background: url(wk12/images/Banner-img.jpg);
 background-size: cover;
 color: #fff; /* White text color */
 padding-top: 20px;
